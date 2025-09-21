@@ -8,3 +8,6 @@ exercises to include calculations, if you wish.
 Remember to design your algorithm in English first, then translate it to Python 
 code. Test as you go!
 """
+print("Hello world!")
+
+# TODO: Finish the assignment
