@@ -9,5 +9,7 @@ Remember to design your algorithm in English first, then translate it to Python
 code. Test as you go!
 """
 print("Hello world!")
+left = ("Enter the first number: ")
+right = ("Enter the second number: ")
 
 # TODO: Finish the assignment
