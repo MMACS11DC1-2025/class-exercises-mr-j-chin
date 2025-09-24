@@ -14,3 +14,9 @@ Judge 4: 8.5
 Judge 5: 9
 Your Olympic score is 8.0
 """
+
+total_score = 0
+# range(5) acts like [0, 1, 2, 3, 4]
+for i in range(5):
+    total_score += float(input("Judge " + str(i + 1) + ": "))
+print("Your O lympic score is: " + str(total_score / 5))

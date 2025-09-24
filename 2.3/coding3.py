@@ -25,3 +25,13 @@ Would you like fries for $3? (Yes/No)
 > yes
 Your total is $3.42
 """
+
+burger = input("Would you like a burger for $5? (Yes/No)")
+fries = input("Would you like fries for $3? (Yes/No)")
+cost = 0.0
+if burger.lower() == "yes":
+    cost += 5
+if fries.lower() == "yes":
+    cost += 3
+final_cost = cost * 1.14
+print("Your total is $" + str(final_cost))
