@@ -11,4 +11,3 @@ How old are you?
 > 25
 In 2056, you will be 56 years old!
 """
-print("Test")
